@@ -1,0 +1,199 @@
+@media (max-width: 768px) {
+  /*header */
+
+  .head {
+    flex-direction: column;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-port {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+    padding-top: 20px;
+  }
+
+  .li-head {
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 10px;
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .ul-containeur {
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .li-head:hover {
+    border-bottom: 2px solid #0065fc;
+  }
+
+  .lien:hover {
+    border-top: none;
+  }
+
+  /*Accroche */
+
+  .accroche {
+    padding-left: 30px;
+  }
+
+  /*Formulaire de recherche */
+
+  .recherche {
+    flex-direction: row;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
+
+  .recherche input {
+    width: 100%;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .bouton-texte {
+    display: none;
+  }
+
+  .bouton-icone {
+    display: flex;
+    background-color: #0065fc;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    border-style: none;
+    width: 45px;
+    color: white;
+  }
+
+  /* Filtres*/
+
+  .filtre {
+    flex-direction: column;
+    margin-left: 0px;
+    padding-right: 15px;
+  }
+
+  .filtre-bout {
+    flex-direction: row;
+    padding-left: 10px;
+  }
+
+  .filtre h3 {
+    display: flex;
+    padding-left: 30px;
+  }
+  .filtre button {
+    margin-bottom: 10px;
+  }
+
+  .attention {
+    padding: 20px 40px 20px 30px;
+  }
+
+  /*Bloc hebergement */
+
+  .ensemble-bloc {
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
+  }
+
+  /*Hébergements à Marseille */
+
+  .hebergements-marseille {
+    background-color: white;
+    padding: 10px 30px 0 30px;
+    width: auto;
+    order: 2;
+  }
+
+  .img_hebergement {
+    height: 140px;
+  }
+
+  .img_hebergement img {
+    height: 130px;
+  }
+
+  .afficher-plus {
+    padding-top: 20px;
+  }
+
+  .bloc-hebergement {
+    flex-direction: column;
+  }
+
+  .carte {
+    width: auto;
+    padding: 5px 5px 10px 5px;
+  }
+
+  /* Les plus populaires*/
+
+  .les-plus-populaires {
+    border-radius: 0;
+    width: auto;
+    order: 1;
+  }
+
+  /*Activités à Marseille */
+
+  .activites-a-marseille {
+    height: 100%;
+    padding: 10px 30px 30px 30px;
+  }
+
+  .general-act {
+    flex-direction: column;
+  }
+
+  .act-bloc1,
+  .act-bloc2,
+  .act-bloc3,
+  .act-bloc4 {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .act-carte1,
+  .act-carte2,
+  .act-carte3,
+  .act-carte4,
+  .act-carte5,
+  .act-carte6 {
+    width: 100%;
+    max-height: 100%;
+  }
+
+  .act-carte1 img,
+  .act-carte2 img,
+  .act-carte3 img,
+  .act-carte4 img,
+  .act-carte5 img,
+  .act-carte6 img {
+    width: 100%;
+    height: 150px;
+  }
+
+  /*Footer */
+
+  .footer {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .footer ul {
+    width: 80%;
+  }
+}

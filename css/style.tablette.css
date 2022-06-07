@@ -1,0 +1,34 @@
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  /*Hébergements à Marseille */
+
+  .hebergements-marseille {
+    width: 60%;
+  }
+
+  .carte {
+    width: 44%;
+    height: 30%;
+  }
+
+  /* Les plus populaires*/
+
+  .les-plus-populaires {
+    padding: 30px 30px 80px 30px;
+    border-radius: 20px;
+    height: 100%;
+    width: 31%;
+  }
+
+  .img_hebergement-pop {
+    height: 134px;
+  }
+
+  /*Activités à Marseille */
+
+  .act-carte3 img {
+    width: 100%;
+    height: 75px;
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
+  }
+}
